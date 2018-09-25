@@ -10,8 +10,17 @@ export default EStyleSheet.create({
     containerImage : {
         alignItems: "center",
         justifyContent: "center",
-        backgroundColor : "red",
         width : imageWidth,
         height : imageWidth
-    }
+    },
+    text :{
+        color: "$while",
+        fontSize :28,
+        letterSpacing: -0.5,
+        marginTop: 15,
+        fontWeight: '600'
+    },
+    logo: {
+        width: imageWidth / 2,
+    },
 });
